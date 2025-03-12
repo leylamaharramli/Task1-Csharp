@@ -132,15 +132,9 @@ for (int i =2; i < count; i++)
 int num = Convert.ToInt32(Console.ReadLine());
 int boyuk_mertebe = 0;
 
-if ( num % 10 > boyuk_mertebe)
+while (num % 10 > boyuk_mertebe)
 {
-    boyuk_mertebe += num%10
-    (num - num%10) / 10
-}
-else
-{
-    boyuk_mertebe
-    (num - num % 10) / 10
+    num /= 10
 }
 Console.WriteLine(boyuk_mertebe);
 #endregion
@@ -150,6 +144,20 @@ int[] array = { 1, 2, 3, 4, 5, 6, 7 }
 int sum=0;
 
 for(int i=0; i<=array.Length; i++)
+{
+    sum += array[i]
+}
+
+Console.WriteLine(sum);
+#endregion
+
+#region
+int[] array = { 1, 2, 3, 4, 5, 6, 7 }
+int sum=0;
+
+for (int i = 0; i <= array.Length; i++)
+{
+    while (array[i] % 2 ==0)
 {
     sum += array[i]
 }
