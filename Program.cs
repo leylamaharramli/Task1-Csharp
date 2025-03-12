@@ -39,3 +39,32 @@ else
 }
 #endregion
 
+#region
+int point = Convert.ToInt32(Console.Readline());
+
+if (point>=91 && point <= 100)
+{
+    Console.Writeline("A");
+}
+else if (point>=81 && point<=90)
+{
+    Console.Writeline("B");
+}
+else if (point>=71 && point <= 80)
+{
+    Console.Writeline("C");
+}
+else if (point>=61 && point <= 70)
+{
+    Console.Writeline("D");
+}
+else if (point>=51 && point<= 60)
+{
+    Console.Writeline("E");
+}
+else
+{
+    Console.Writeline("kesilmisiniz");
+}
+#endregion
+
