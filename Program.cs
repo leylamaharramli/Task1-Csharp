@@ -25,3 +25,17 @@ else
 }
 #endregion
 
+#region
+int num1 = Convert.ToInt32(Console.Readline());
+int num2 = Convert.ToInt32(Console.Readline());
+
+if (num1 % 2 == 0 && num2 % 2 == 0)
+{
+    Console.Writeline(num1 + num2);
+}
+else
+{
+    Console.Writeline("daxil olunan ededler cut olmalidir")
+}
+#endregion
+
