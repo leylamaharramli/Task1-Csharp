@@ -68,3 +68,23 @@ else
 }
 #endregion
 
+#region
+int A = Convert.ToInt32(Console.Readline());
+int B = Convert.ToInt32(Console.Readline());
+int C = Convert.ToInt32(Console.Readline());
+int sum = 0
+
+if(A % 5 == 0)
+{
+    sum += A;
+}
+else if (B % 5 == 0)
+{
+    sum += B;
+}
+else
+{
+    sum += C;
+}
+#endregion
+
