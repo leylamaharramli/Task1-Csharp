@@ -88,3 +88,24 @@ else
 }
 #endregion
 
+#region
+Console.WriteLine("ikireqemli eded daxil edin");
+
+int num = Convert.ToInt32(Console.Writeline());
+int teklik = num % 10;
+int onluq = (num - teklik) / 10;
+
+if ( teklik > onluq)
+{
+    Console.WriteLine(teklik);
+}
+else if (onluq > teklik)
+{
+    Console.WriteLine(onluq);
+}
+else
+{
+    Console.WriteLine("teklik ve onluq mertebeleri beraberdir")
+}
+#endregion
+
