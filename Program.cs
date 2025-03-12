@@ -176,3 +176,12 @@ Console.WriteLine(sum);
     int average = sum / array.Length;
     Console.WriteLine(average);
     #endregion
+
+    #region
+    int[] = array {1, 2, 3, 4, 5, 6, 7};
+    for (int i = array.Length; i >= 0; i--)
+    {
+        Console.WriteLine(array[i]);
+    }
+    #endregion
+
