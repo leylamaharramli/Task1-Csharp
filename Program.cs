@@ -127,4 +127,19 @@ for (int i =2; i < count; i++)
 }
 #endregion
 
+#region
+int num = Convert.ToInt32(Console.ReadLine());
+int boyuk_mertebe = 0;
+
+if ( num % 10 > boyuk_mertebe)
+{
+    boyuk_mertebe += num%10
+    (num - num%10) / 10
+}
+else
+{
+    boyuk_mertebe
+    (num - num % 10) / 10
+}
+#endregion
 
