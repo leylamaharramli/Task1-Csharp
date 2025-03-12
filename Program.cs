@@ -210,3 +210,19 @@ Console.WriteLine(sum);
     }
     Console.WriteLine(array[i]);
     #endregion
+
+    #region
+    int[] array = { 1, 2, 3, 4, 5, 6, 7 };
+    int num = Convert.ToInt32(Console.WriteLine());
+
+    for(int i=0; i<array.Length; i++)
+    {
+        array[i] == num;
+            for (int j=i; j<array.Length-1; i++)
+        {
+            array[j] = array[j + 1];
+        }
+        array[^1] = 0;
+    }
+    Console.WriteLine("not found");
+    #endregion
