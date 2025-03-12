@@ -86,6 +86,7 @@ else
 {
     sum += C;
 }
+Console.WriteLine(sum);
 #endregion
 
 #region
@@ -141,5 +142,17 @@ else
     boyuk_mertebe
     (num - num % 10) / 10
 }
+Console.WriteLine(boyuk_mertebe);
 #endregion
 
+#region
+int[] array = { 1, 2, 3, 4, 5, 6, 7 }
+int sum=0;
+
+for(int i=0; i<=array.Length; i++)
+{
+    sum += array[i]
+}
+
+Console.WriteLine(sum);
+#endregion
