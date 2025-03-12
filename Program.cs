@@ -198,3 +198,15 @@ Console.WriteLine(sum);
     }
     Console.WriteLine(max_num);
     #endregion
+
+    #region
+    int[] array = { 1, 2, 3, 4, 5, 6, 7 };
+    for(int i=0; i<array.Length; i++)
+    {
+        for (int j = 0; j < array.Length; j++) ;
+        {
+            array[i] = array[j] & i != j;
+        }
+    }
+    Console.WriteLine(array[i]);
+    #endregion
